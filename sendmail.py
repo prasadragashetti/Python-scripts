@@ -5,12 +5,13 @@ import smtplib
 sender = 'prasad@sl.local'
 receivers = ['administrator@sl.local']
 
-message = """From: From Person <from@fromdomain.com>
-To: To Person <to@todomain.com>
+message = """From: Prasad Ragashetti <prasad.ragashetti@sl.local>
+To: Administrator <Administrator@sl.local>
 Subject: SMTP e-mail test
 
-This is a test e-mail message.
+This is a File Difference Report.
 """
+
 
 try:
    smtpObj = smtplib.SMTP('lonex201600.sl.local')
